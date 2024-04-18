@@ -4,13 +4,19 @@
   "private": true,
   "scripts": {
     "build": "slidev build",
-    "dev": "slidev --open",
-    "export": "slidev export"
+    "dev": "slidev",
+    "export": "slidev export",
+    "eject": "slidev theme eject"
   },
   "dependencies": {
     "@slidev/cli": "^0.49.0-beta.4",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
+    "slidev-theme-vuetiful": "^0.3.1",
+    "slidev-theme-vuetiful-uno": "^1.0.0",
     "vue": "^3.4.22"
+  },
+  "devDependencies": {
+    "unocss": "^0.59.3"
   }
 }

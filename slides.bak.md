@@ -1,6 +1,6 @@
 ---
 # try also 'default' to start simple
-theme: vuetiful-uno
+theme: seriph
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
@@ -596,6 +596,9 @@ Double-click on the draggable elements to edit their positions.
 
 <img v-drag="'square'" src="https://sli.dev/logo.png">
 
+---
+src: ./pages/multiple-entries.md
+hide: false
 ---
 
 ---
