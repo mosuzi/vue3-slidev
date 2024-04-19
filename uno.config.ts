@@ -13,7 +13,7 @@ export default defineConfig({
   },
   content: {
     pipeline: {
-      include: [/\.(css|postcss|sass|scss|less|stylus|styl)($|\?)/, /\.(vue|ts)/]
+      include: [/\.(css|postcss|sass|scss|less|stylus|styl)($|\?)/, /\.(vue|ts|md)/]
     }
   }
   // ...
