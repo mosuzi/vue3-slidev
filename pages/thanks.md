@@ -3,7 +3,7 @@ layout: outro
 title: Thanks
 website: 'https://mosuzi.com'
 repository: 'https://github.com/mosuzi/vue3-slidev'
-hostedSlides: 'https://mosuzi.com/slidev/vue3/'
+hostedSlides: 'https://vue3-slidev.vercel.app'
 ---
 
 <div class="absolute left-12 top-[200px] right-12 text-center text-light-600">
