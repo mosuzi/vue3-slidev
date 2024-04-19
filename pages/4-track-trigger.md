@@ -7,7 +7,7 @@ let activeEffect
 
 function track(target, key) {
   if (activeEffect) {
-    const effects = getSubscribersForProperty(target, key)
+    const effects = getSubscribersForProperty(target, key) // 副作用集合映射
     effects.add(activeEffect)
   }
 }

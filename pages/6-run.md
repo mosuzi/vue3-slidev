@@ -110,6 +110,8 @@ function whenDepsChange(update) {
 
 此时 obj2.foo 被自动改变，完成了一次“响应式”
 
+[Vue3 响应式 demo](https://codepen.io/mosuzi_/pen/MWRqjGj)
+
 </div>
 </div>
 

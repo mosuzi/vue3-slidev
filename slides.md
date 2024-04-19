@@ -27,6 +27,7 @@ altCover: true
 # 从 Vue2 到 Vue3
 
 <!-- Presentation slides for developers -->
+Mosuzi
 
 <!-- <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
@@ -42,20 +43,56 @@ altCover: true
 </div>
 
 ---
-src: ./pages/2.md
+src: ./pages/2-responsive.md
 ---
 ---
-src: ./pages/3.md
+src: ./pages/3-core-api.md
 ---
 ---
-src: ./pages/4.md
+src: ./pages/4-track-trigger.md
 ---
 ---
-src: ./pages/5.md
+src: ./pages/5-case.md
 ---
 ---
-src: ./pages/6.md
+src: ./pages/6-run.md
 ---
 ---
-src: ./pages/7.md
+src: ./pages/7-reactive.md
+---
+---
+src: ./pages/8-startup.md
+---
+---
+src: ./pages/9-composition.md
+---
+---
+src: ./pages/10-props.md
+---
+---
+src: ./pages/11-data-1.md
+---
+---
+src: ./pages/12-data-2.md
+---
+---
+src: ./pages/13-computed.md
+---
+---
+src: ./pages/14-watch.md
+---
+---
+src: ./pages/15-emit.md
+---
+---
+src: ./pages/16-model.md
+---
+---
+src: ./pages/17-miscellaneous.md
+---
+---
+src: ./pages/18-ide.md
+---
+---
+src: ./pages/thanks.md
 ---

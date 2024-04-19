@@ -1,9 +1,5 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
 dependencies:
   '@slidev/cli':
     specifier: ^0.49.0-beta.4
@@ -22,6 +18,12 @@ dependencies:
     version: 3.4.22(typescript@5.4.5)
 
 devDependencies:
+  '@iconify-json/logos':
+    specifier: ^1.1.42
+    version: 1.1.42
+  '@iconify-json/uim':
+    specifier: ^1.1.9
+    version: 1.1.9
   unocss:
     specifier: ^0.59.3
     version: 0.59.3(postcss@8.4.38)(vite@5.2.9)
@@ -564,6 +566,12 @@ packages:
       '@iconify/types': 2.0.0
     dev: false
 
+  /@iconify-json/logos@1.1.42:
+    resolution: {integrity: sha512-/f+frtPm3m3Z30oy8Pk+QqRDkbmAiIaWGPl5CmsCXm15MVfvw9a/V/gD7WzdyuSGAZcFuQaqbHXj92y/n+2ifg==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
   /@iconify-json/ph@1.1.12:
     resolution: {integrity: sha512-m+rXTW084YaQQHT+F8TxdkCoAh+i/5MWRoSuPmxCWPlxwMAaLT/QfyVsbEiV95HM5806U/jKpBV6F1b7Pmr3Vg==}
     dependencies:
@@ -575,6 +583,12 @@ packages:
     dependencies:
       '@iconify/types': 2.0.0
     dev: false
+
+  /@iconify-json/uim@1.1.9:
+    resolution: {integrity: sha512-mV9Ps5WkLbPsk/Nztxye2TBCpEDIkeMtXXgYRgtfQve8kY0DkMF/je+YCvfd59IzXACZ6JwNAsPeF7fCYzPP+w==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
 
   /@iconify/types@2.0.0:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -5220,3 +5234,7 @@ packages:
   /zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
     dev: false
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
