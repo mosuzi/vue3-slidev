@@ -1,3 +1,6 @@
+---
+transition: slide-up
+---
 # track / trigger
 
 `track`方法收集了依赖，`trigger`方法触发了更新方法

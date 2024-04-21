@@ -2,6 +2,7 @@
 title: Vue3 响应式的两大核心 API
 titleRow: true
 cols: "grid-cols-[1fr_1fr]"
+transition: slide-up
 ---
 
 ```javascript
