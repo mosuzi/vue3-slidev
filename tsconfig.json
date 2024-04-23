@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "outDir": "dist",
+    "jsx": "preserve",
+    "types": ["vite/client", "@slidev/types"],
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "components/**/*.vue",
+    "examples/**/*.*",
+    "layouts/**/*.vue",
+    "setup/*.ts",
+    "**/*.mts",
+    "utils/*.js",
+    "windi.config.ts",
+    "uno.config.ts",
+    "utils/props.ts"
+  ]
+}
