@@ -6,7 +6,7 @@
 import { ref, computed } from 'vue'
 
 const msg = ref('hello')
-const loadingLabel = computed(() => msg === 'hello' ? '加载中...' : '加载完毕')
+const loadingLabel = computed(() => msg.value === 'hello' ? '加载中...' : '加载完毕')
 const computedMsg = computed({
   get() {
     return msg.value
