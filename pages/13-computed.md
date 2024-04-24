@@ -16,3 +16,8 @@ const computedMsg = computed({
   }
 })
 ```
+<!-- 
+
+另外，在 pinia 中，computed 还可以帮助设置一个 getter
+
+ -->

@@ -43,3 +43,11 @@ function ref(value) {
 ```
 
 ref() 没有直接使用 Proxy，而是通过 value 包裹了一层传入的对象，类似 Proxy，但是无法像操作 Proxy 那样无感操作包裹的对象
+
+<!--
+
+描述两段代码
+
+可以看出 reactive 使用了 Proxy，而 ref 并没有直接使用 Proxy，而是通过 value 包裹了一层传入的对象，类似 Proxy，但是无法像操作 Proxy 那样无感操作包裹的对象
+
+-->
