@@ -65,7 +65,7 @@ defineExpose({
 
 <div v-click.hide="5">
 <div v-click="4">
-<img class="pop-img" src="https://cn.vuejs.org/assets/lifecycle_zh-CN.FtDDVyNA.png" />
+<img class="pop-img" src="https://pics.mosuzi.com/blog/vue-lifecycle.png" />
 </div>
 </div>
 
