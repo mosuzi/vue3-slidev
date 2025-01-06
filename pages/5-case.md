@@ -1,3 +1,6 @@
+---
+transition: slide-up
+---
 假设有这样一种情况：
 
 ```javascript

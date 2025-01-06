@@ -61,7 +61,7 @@ function track(target, key) {
 obj1.k1 = "new k1";
 ```
 
-```js {1|8,12|10}
+```js {1,8,12|10}
 // 触发 obj1.k1 的 setter
 function reactive(obj) {
   return new Proxy(obj, {
@@ -98,7 +98,7 @@ function whenDepsChange(update) {
 ```
 ````
 
-<div v-click.hide="[12, 21]">
+<div v-click.hide="[12, 20]">
 <div v-click="11">
 <div v-after.hide="12">
 
@@ -106,7 +106,7 @@ function whenDepsChange(update) {
 
 </div>
 </div>
-<div v-click="21">
+<div v-click="20">
 
 此时 obj2.foo 被自动改变，完成了一次“响应式”
 
