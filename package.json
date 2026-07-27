@@ -24,5 +24,11 @@
   },
   "devDependencies": {
     "@slidev/types": "52.18.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "dompurify": "3.4.12",
+      "rollup": "4.62.3"
+    }
   }
 }
