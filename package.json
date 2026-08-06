@@ -28,6 +28,7 @@
   "pnpm": {
     "overrides": {
       "dompurify": "3.4.12",
+      "fast-uri": "3.1.5",
       "rollup": "4.62.3"
     }
   }
