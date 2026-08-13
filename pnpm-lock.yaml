@@ -9,6 +9,11 @@ overrides:
   fast-uri: 3.1.5
   rollup: 4.62.3
 
+patchedDependencies:
+  image-size@1.2.1:
+    hash: h5xdg4miszwf7dlzwojhz47rv4
+    path: patches/image-size@1.2.1.patch
+
 importers:
 
   .:
@@ -5848,7 +5853,7 @@ snapshots:
   ignore@7.0.6:
     optional: true
 
-  image-size@1.2.1:
+  image-size@1.2.1(patch_hash=h5xdg4miszwf7dlzwojhz47rv4):
     dependencies:
       queue: 6.0.2
 
@@ -6666,7 +6671,7 @@ snapshots:
     dependencies:
       '@types/node': 22.20.1
       https: 1.0.0
-      image-size: 1.2.1
+      image-size: 1.2.1(patch_hash=h5xdg4miszwf7dlzwojhz47rv4)
       jszip: 3.10.1
 
   prism-theme-vars@0.2.5: {}
